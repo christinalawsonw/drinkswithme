@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wine Reviews | Wine Review Hub</title>
+  <link rel="stylesheet" href="style.css?v=1">
+<script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+ <header class="navbar">
+  <div class="logo">Wine Review Hub</div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="reviews.html" class="active">Reviews</a></li>
+      <li><a href="categories.html">Categories</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="top10.html">Top 10</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="page-hero">
+    <h1>Wine Reviews</h1>
+    <p>Explore detailed tasting notes, ratings, and food pairings from wines around the world.</p>
+  </section>
+
+  <!-- ===== Filter Menu ===== -->
+  <section class="filter-menu">
+    <button class="filter-btn active">All</button>
+    <button class="filter-btn">Red</button>
+    <button class="filter-btn">White</button>
+    <button class="filter-btn">Sparkling</button>
+    <button class="filter-btn">Rosé</button>
+    <button class="filter-btn">Dessert</button>
+  </section>
+
+  <!-- ===== Reviews Grid ===== -->
+  <section class="reviews-grid">
+    <!-- Wine 1 -->
+    <div class="review-card slide-up">
+      <img src="images/red-wine.jpeg"  width="250" height="375" alt="Château Margaux 2015">
+      <div class="review-info">
+        <h2>Château Margaux 2015</h2>
+        <p><strong>Origin:</strong> Bordeaux, France</p>
+        <p><strong>Type:</strong> Red Wine</p>
+        <p><strong>Vintage:</strong> 2015</p>
+        <p><strong>Tasting Notes:</strong> Aromas of cassis, violet, and truffle with deep blackberry flavors, silky tannins, and a refined finish.</p>
+        <p><strong>Food Pairing:</strong> Roast lamb, beef wellington, or mature cheeses.</p>
+        <p class="rating">⭐⭐⭐⭐⭐</p>
+      </div>
+    </div>
+
+    <!-- Wine 2 -->
+    <div class="review-card slide-up delay">
+      <img src="images/white-wine.jpeg"  width="250" height="375" alt="Robert Mondavi Chardonnay">
+      <div class="review-info">
+        <h2>Robert Mondavi Chardonnay 2019</h2>
+        <p><strong>Origin:</strong> Napa Valley, USA</p>
+        <p><strong>Type:</strong> White Wine</p>
+        <p><strong>Vintage:</strong> 2019</p>
+        <p><strong>Tasting Notes:</strong> Crisp acidity with pear, apple, and vanilla oak. Smooth and creamy mouthfeel.</p>
+        <p><strong>Food Pairing:</strong> Creamy pasta, seafood risotto, roasted chicken.</p>
+        <p class="rating">⭐⭐⭐⭐⭐</p>
+      </div>
+    </div>
+
+    <!-- Wine 3 -->
+    <div class="review-card slide-up delay2">
+      <img src="images/sparkling-wine.jpeg"  width="250" height="375" alt="Moët & Chandon Brut Impérial">
+      <div class="review-info">
+        <h2>Moët & Chandon Brut Impérial</h2>
+        <p><strong>Origin:</strong> Champagne, France</p>
+        <p><strong>Type:</strong> Sparkling Wine</p>
+        <p><strong>Vintage:</strong> NV</p>
+        <p><strong>Tasting Notes:</strong> Crisp green apple, citrus zest, and subtle brioche with fine persistent bubbles.</p>
+        <p><strong>Food Pairing:</strong> Oysters, sushi, or caviar.</p>
+        <p class="rating">⭐⭐⭐⭐☆</p>
+      </div>
+    </div>
+
+    <!-- Wine 4 -->
+    <div class="review-card slide-up delay3">
+      <img src="images/Whispering Angel Rosé - Chateau d'Esclans.jpeg"  width="250" height="375" alt="Whispering Angel Rosé">
+      <div class="review-info">
+        <h2>Whispering Angel Rosé 2021</h2>
+        <p><strong>Origin:</strong> Provence, France</p>
+        <p><strong>Type:</strong> Rosé Wine</p>
+        <p><strong>Vintage:</strong> 2021</p>
+        <p><strong>Tasting Notes:</strong> Fresh strawberry, peach, and citrus aromas with a crisp, refreshing palate.</p>
+        <p><strong>Food Pairing:</strong> Grilled seafood, summer salads, Mediterranean dishes.</p>
+        <p class="rating">⭐⭐⭐⭐</p>
+      </div>
+    </div>
+
+    <!-- Wine 5 -->
+    <div class="review-card slide-up delay4">
+      <img src="images/Oremus, Tokaji Aszu 5 Puttonyos 2000, Tokaj-Hegyalja, Hungary.jpeg" width="250" height="375"  alt="Tokaji Aszú 6 Puttonyos">
+      <div class="review-info">
+        <h2>Tokaji Aszú 6 Puttonyos 2013</h2>
+        <p><strong>Origin:</strong> Hungary</p>
+        <p><strong>Type:</strong> Dessert Wine</p>
+        <p><strong>Vintage:</strong> 2013</p>
+        <p><strong>Tasting Notes:</strong> Honey, apricot, and orange peel with luscious sweetness and vibrant acidity.</p>
+        <p><strong>Food Pairing:</strong> Blue cheese, fruit tarts, or foie gras.</p>
+        <p class="rating">⭐⭐⭐⭐⭐</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>&copy; 2022 Wine Review Hub | Crafted with ❤️ for Wine Lovers</p>
+  </footer>
+</body>
+</html>
