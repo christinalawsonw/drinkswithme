@@ -63,7 +63,7 @@ h1, h2, h3 {
 
 /* -------- Hero -------- */
 .hero {
-  background: url('images/wine-cellar.jpg') center/cover no-repeat;
+  background: url('https://i.pinimg.com/736x/97/a5/28/97a5285690a47b48a499d2a497bf1e1b.jpg') center/cover no-repeat;
   position: relative;
   color: #fff;
   text-align: center;
@@ -282,4 +282,5 @@ form button { width: 100%; }
   from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
 
